@@ -1,0 +1,15 @@
+{
+	"apiVersion": 2,
+	"name": "create-block/blog-listing",
+	"title": "Custom Post Types Listing Block",
+	"category": "widgets",
+	"icon": "list-view",
+	"description": "Gutenberg Block to list posts and custom post types.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "blog-listing",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
